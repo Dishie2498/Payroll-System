@@ -1,8 +1,10 @@
 import Navbar from './Navbar';
-import Login from './Login';
+
 import Signup from './Signup';
 import Home from './Home';
+import AfterLogin from './AfterLogin';
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+import PersonalDetails from './PersonalDetails';
 import './App.css';
 
 function App() {
@@ -15,11 +17,14 @@ function App() {
         <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route exact path="/login">
-            <Login></Login>
-          </Route>
-          <Route path="/signup">
+          <Route exact path="/signup">
             <Signup></Signup>
+          </Route>
+          <Route exact path="/profile">
+            <AfterLogin></AfterLogin>
+          </Route>
+          <Route exact path="/details">
+            <PersonalDetails></PersonalDetails>
           </Route>
         </Switch>
       </div>      

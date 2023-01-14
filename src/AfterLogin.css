@@ -1,0 +1,13 @@
+.heading{
+    margin-top: 10px;
+      margin-bottom: 0px;
+      font-size: 26px;
+      letter-spacing: 2px;
+      font-family: 'Source Sans Pro',sans-serif;
+      font-weight: 500;
+      line-height: 1.1;
+      color: white;
+  }
+  .intro{
+    background-color:cyan;
+  }

@@ -1,19 +1,20 @@
+
 const Login = () => {
     return ( 
         <div className="login">
             <h1>Login</h1>
             <form>
-            <div>
-            <label htmlFor="mail">Email</label>
-            <input type="email" name="mail" id="mail" placeholder="Email" required/>
+            <div className="userbox">
+            <label htmlFor="mail"></label>
+            <input type="text" name="mail" id="mail" placeholder="Employee ID" required/>
             </div>
-            <div>
-                <label htmlFor="password">Password</label>
-            <input type="text" name="password" id="password" placeholder="Password" />
+            <div className="userbox">
+                <label htmlFor="password"></label>
+            <input type="password" name="password" id="password" placeholder="Password"  required />
             </div>
-            <div>
-                <button>Submit</button>
-            </div>
+            
+            <button id="loginsubmit">Submit</button>
+            
             </form>
 
         </div>
